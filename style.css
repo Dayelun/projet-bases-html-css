@@ -1,0 +1,54 @@
+/************************************************************
+ * ATTENTION REGLAGES DE L'INTERFACE GLOBALE.
+ * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
+ * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
+ ************************************************************/
+.page{
+    width: 900px;
+    margin:auto;
+}
+.entete{
+    height: 100px;
+}
+.colonne_menu{
+    float:left;
+    width:200px;
+    height:100%;
+}
+.colonne_contenu {
+    margin-left:200px;
+}
+.pieddepage{
+    height:50px;
+}
+
+/************************************************************
+ * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
+ ************************************************************/
+body{
+	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: #00FA9A; 
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.entete{
+    background-color: hotpink;
+}
+.colonnes {
+    background-color: deepskyblue;
+}
+.colonne_menu{
+    background-color: gold;
+}
+.colonne_contenu {
+    background-color: lightgreen;
+}
+.pieddepage{
+    background-color: lightgray;
+}
+
+
+
+

@@ -34,7 +34,15 @@ body{
     padding: 0;
 }
 .entete{
-    background-color: hotpink;
+    background-color: rgb(221, 124, 124);
+    padding: 10px;
+}
+.title {
+    font-size: 2em;
+    color: blue;
+}
+.slogan {
+    font-style: italic;
 }
 .colonnes {
     background-color: deepskyblue;

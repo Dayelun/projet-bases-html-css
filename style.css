@@ -41,6 +41,37 @@ body{
     font-size: 2em;
     color: blue;
 }
+h1 {
+    background-color: red;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid purple;
+}
+h2 {
+    color: rgb(3, 102, 3);
+    font-size: 1.5em;
+    margin: 20px;
+    font-variant-caps: all-small-caps;
+}
+strong {
+    color: yellow;
+    font-weight:400
+}
+em {
+    color: rgb(231, 82, 82);
+}
+.introduction {
+    font-style: italic;
+    border: solid;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+a:hover {
+    font-weight: 700;
+    color: red;
+    text-decoration: none;
+}
 .slogan {
     font-style: italic;
 }
@@ -51,12 +82,14 @@ body{
     background-color: gold;
 }
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: rgb(82, 82, 136);
+    margin: 10px;
 }
 .pieddepage{
     background-color: yellow;
     color: red;
     text-align: center;
+    line-height: 50px;
 }
 
 

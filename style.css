@@ -43,7 +43,7 @@ body{
 }
 h1 {
     background-color: red;
-    margin: 10px;
+    padding: 10px;
     margin-bottom: 20px;
     border-bottom: 5px solid purple;
 }
@@ -63,7 +63,7 @@ em {
 .introduction {
     font-style: italic;
     border: solid;
-    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
 
 }
@@ -76,14 +76,36 @@ a:hover {
     font-style: italic;
 }
 .colonnes {
-    background-color: deepskyblue;
+    background-color: #56c747;
 }
 .colonne_menu{
-    background-color: gold;
+    background-color: #56c747;
 }
 .colonne_contenu {
     background-color: rgb(82, 82, 136);
-    margin: 10px;
+    padding: 10px;
+    
+}
+.colonne_menu ul {
+    margin: 0;
+    padding: 0;
+
+}
+.colonne_menu li {
+    list-style-type: none;
+    background-color: orange;
+    margin: 5px;
+    text-align: center;
+
+}
+.colonne_menu li:hover {
+    background-color: blue;
+}
+.colonne_menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    padding: 5px;
 }
 .pieddepage{
     background-color: yellow;
